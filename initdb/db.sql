@@ -26,3 +26,5 @@ CREATE TABLE articles(
     FOREIGN KEY (user_id) REFERENCES users(id)
 )CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci ;
 
+
+CREATE INDEX idx_article_user ON articles(user_id);
