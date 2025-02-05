@@ -1,0 +1,13 @@
+   Creation d'un système de Blog simple en PHP
+
+Description: Ce projet consite à créer un systeme de blog rudimentaire permettant 
+la publication, l'affichage et la gestion d'articles.
+
+Nom de la base de donnée : blog_db
+
+**************** Les tables *************************
+
+users(id,full_name,username,email,role,picture,password,createdAt,updatedAt)
+articles(id,user_id,title,urlImage,urlVideo,content,createdAt,updatedAt)
+
+

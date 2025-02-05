@@ -1,0 +1,124 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 70px auto;
+    padding: 10px;
+   
+}
+.container .article{
+    width: 100%;
+    height: 480px;
+    max-width: 650px;
+    padding: 20px 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 4px 16px rgba(0,0, 0, 20%);
+}
+
+.container .article-ulistration{
+    height: 270px;
+    
+}
+.container .article .article-ulistration .article-media{
+    width: 100%;
+}
+.container .read_article .article-ulistration .article-media{
+    width:500px;
+}
+.container  .article-ulistration img,
+.container  .article-ulistration video{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* .container .read_article  .article-ulistration img,
+.container .read_article  .article-ulistration video{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+} */
+
+.container .article-content{
+    text-align: justify;
+}
+
+.container .overlay{
+    bottom: 5px;
+    background-color: var(--main-color-white);
+    opacity:0.8 ;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.container .overlay a{
+    color: var(--main-color);
+
+}
+
+
+/**
+* la page de lecture de l'article
+*/
+
+.read_article{
+    box-shadow: 2px 4px 16px rgba(0,0, 0, 20%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+/*
+             FOOTER
+*/
+
+footer{
+    height: 110px;
+    padding: 10px;
+    background-color: var(--main-color);
+    color: var(--main-color-white);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/*
+* la gestion des boutton edit et supprimer
+*/
+
+
+.article-actions{
+    margin: 10px;
+}
+
+.btn-action{
+    padding: 12px;
+    border-radius: 20px;
+}
+.btn-action a{
+    color: var(--main-color-white);
+}
+
+.btn-edit{
+    background-color: var(--main-color);
+}
+
+.btn-delete{
+    background-color: var(--main-color-danger);
+}
+
+
+
+
+
+
+
+/* @media screen  {
+    .container .read_article .article-ulistration .article-media{
+        width:100%;
+    }
+} */

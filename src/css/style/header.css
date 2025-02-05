@@ -1,0 +1,27 @@
+header{
+    background-color: var(--main-color);
+    color: var(--main-color-white);
+    padding: 0 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+
+}
+header h2{
+    text-transform: uppercase;
+    margin: 0;
+}
+header nav ul li a{
+    color: var(--main-color-white);
+    font-weight: bold;
+    text-transform: capitalize;
+    height: 55px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+header nav ul li a:hover{
+    background-color: rgb(195, 195, 221);
+}
+    
